@@ -34,5 +34,9 @@ public class Library {
         }
     }
 
+    public Book checkOutBook() {
+        return this.collection.remove(0);
+    }
+
 
 }
